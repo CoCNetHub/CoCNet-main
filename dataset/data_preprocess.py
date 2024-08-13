@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 
 """
@@ -294,3 +295,9 @@ class TransVGDataset(data.Dataset):
             else:
                 return img, np.array(img_mask), np.array(word_id, dtype=int), np.array(word_mask, dtype=int), np.array(
                     bbox, dtype=np.float32)
+=======
+from utils.data_util import data_preprocess
+
+if __name__ == '__main__':
+    data_preprocess('RefCOCO')
+>>>>>>> c591e26899bbdcb5fca3be2c87fb3eb5d90169c2
